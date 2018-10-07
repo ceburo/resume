@@ -403,73 +403,49 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  width: 60%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
-}
-
-.illustrator {
-  width: 55%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
-}
-
-.wordpress {
-  width: 50%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
-}
-
-.css {
+.c_sharp {
   width: 90%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
+  -moz-animation: c_sharp 2s ease;
+  -webkit-animation: c_sharp 2s ease;
 }
 
-.html5 {
+.vb_net {
   width: 80%;
-  -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease;
+  -moz-animation: vb_net 2s ease;
+  -webkit-animation: vb_net 2s ease;
 }
 
-.jquery {
-  width: 50%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+.xamarin {
+  width: 55%;
+  -moz-animation: xamarin 2s ease;
+  -webkit-animation: xamarin 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 60%;
-  }
+.objective {
+  width: 65%;
+  -moz-animation: objective 2s ease;
+  -webkit-animation: objective 2s ease;
 }
 
-@-moz-keyframes illustrator {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 55%;
-  }
+.java {
+  width: 65%;
+  -moz-animation: java 2s ease;
+  -webkit-animation: java 2s ease;
 }
 
-@-moz-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 50%;
-  }
+.swift {
+  width: 40%;
+  -moz-animation: swift 2s ease;
+  -webkit-animation: swift 2s ease;
 }
 
-@-moz-keyframes css {
+.html5_css {
+  width: 30%;
+  -moz-animation: html5_css 2s ease;
+  -webkit-animation: html5_css 2s ease;
+}
+
+@-moz-keyframes c_sharp {
   0% {
     width: 0px;
   }
@@ -479,7 +455,7 @@ ul#nav li.current a {
   }
 }
 
-@-moz-keyframes html5 {
+@-moz-keyframes vb_net {
   0% {
     width: 0px;
   }
@@ -489,27 +465,7 @@ ul#nav li.current a {
   }
 }
 
-@-moz-keyframes jquery {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 50%;
-  }
-}
-
-@-webkit-keyframes photoshop {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 60%;
-  }
-}
-
-@-webkit-keyframes illustrator {
+@-moz-keyframes xamarin {
   0% {
     width: 0px;
   }
@@ -519,17 +475,47 @@ ul#nav li.current a {
   }
 }
 
-@-webkit-keyframes wordpress {
+@-moz-keyframes objective {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 50%;
+    width: 65%;
   }
 }
 
-@-webkit-keyframes css {
+@-moz-keyframes java {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@-moz-keyframes swift {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+@-moz-keyframes html5_css {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes c_sharp {
   0% {
     width: 0px;
   }
@@ -539,7 +525,7 @@ ul#nav li.current a {
   }
 }
 
-@-webkit-keyframes html5 {
+@-webkit-keyframes vb_net {
   0% {
     width: 0px;
   }
@@ -549,13 +535,53 @@ ul#nav li.current a {
   }
 }
 
-@-webkit-keyframes jquery {
+@-webkit-keyframes xamarin {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 50%;
+    width: 55%;
+  }
+}
+
+@-webkit-keyframes objective {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@-webkit-keyframes java {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@-webkit-keyframes swift {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+@-webkit-keyframes html5_css {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 30%;
   }
 }
 
