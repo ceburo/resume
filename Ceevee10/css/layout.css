@@ -291,66 +291,70 @@ ul#nav li.current a {
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#resume, #education, #skills {
   background: #fff;
   padding-top: 90px;
-  padding-bottom: 72px;
+  padding-bottom: 12px;
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
+#skills, {
+  padding-bottom: 72px;
+}
+
+#resume a, #education a, #skills  a,
+#resume a:visited, #education a:visited, #skills  a:visited {
   color: #11ABB0;
 }
 
-#resume a:hover,
-#resume a:focus {
+#resume a:hover, #education a:hover, #skills  a:hover,
+#resume a:focus, #education a:focus, #skills  a:focus {
   color: #313131;
 }
 
-#resume h1 {
+#resume h1, #education h1, #skills  h1 {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-#resume h1 span {
+#resume h1 span, #education h1 span, #skills  h1 span {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
 
-#resume h3 {
+#resume h3, #education h3, #skills  h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col {
+#resume .header-col, #education .header-col, #skills  .header-col {
   padding-top: 9px;
 }
 
-#resume .main-col {
+#resume .main-col, #education .main-col, #skills  .main-col {
   padding-right: 10%;
 }
 
 .education,
 .work {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #E8E8E8;
 }
 
-#resume .info {
+#resume .info , #education .info , #skills  .info {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #6E7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
 
-#resume .info span {
+#resume .info span, #education .info span, #skills  .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
 
-#resume .date {
+#resume .date, #education .date, #skills  .date {
   font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
 }
@@ -445,6 +449,54 @@ ul#nav li.current a {
   -webkit-animation: html5_css 2s ease;
 }
 
+.team_spirit {
+  width: 95%;
+  -moz-animation: team_spirit 2s ease;
+  -webkit-animation: team_spirit 2s ease;
+}
+
+.implication {
+  width: 100%;
+  -moz-animation: implication 2s ease;
+  -webkit-animation: implication 2s ease;
+}
+
+.method {
+  width: 75%;
+  -moz-animation: method 2s ease;
+  -webkit-animation: method 2s ease;
+}
+
+.perseverant {
+  width: 90%;
+  -moz-animation: perseverant 2s ease;
+  -webkit-animation: perseverant 2s ease;
+}
+
+.passionned {
+  width: 95%;
+  -moz-animation: passionned 2s ease;
+  -webkit-animation: passionned 2s ease;
+}
+
+.voluntair {
+  width: 90%;
+  -moz-animation: voluntair 2s ease;
+  -webkit-animation: voluntair 2s ease;
+}
+
+.dynamique {
+  width: 80%;
+  -moz-animation: dynamique 2s ease;
+  -webkit-animation: dynamique 2s ease;
+}
+
+.initiative_spirit {
+  width: 75%;
+  -moz-animation: initiative_spirit 2s ease;
+  -webkit-animation: initiative_spirit 2s ease;
+}
+
 @-moz-keyframes c_sharp {
   0% {
     width: 0px;
@@ -515,6 +567,80 @@ ul#nav li.current a {
   }
 }
 
+@-moz-keyframes team_spirit {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+@-moz-keyframes implication {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes method {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+@-moz-keyframes perseverant {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+@-moz-keyframes passionned {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+@-moz-keyframes voluntair {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+@-moz-keyframes dynamique {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+@-moz-keyframes initiative_spirit {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
 @-webkit-keyframes c_sharp {
   0% {
     width: 0px;
@@ -582,6 +708,79 @@ ul#nav li.current a {
 
   100% {
     width: 30%;
+  }
+}
+
+@-webkit-keyframes team_spirit {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+@-webkit-keyframes implication {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes method {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+@-webkit-keyframes perseverant {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes passionned {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+@-webkit-keyframes voluntair {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes dynamique {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+@-webkit-keyframes initiative_spirit {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
   }
 }
 
