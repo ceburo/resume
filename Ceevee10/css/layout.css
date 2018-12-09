@@ -443,7 +443,7 @@ ul#nav li.current a {
 }
 
 .xamarin {
-  width: 55%;
+  width: 70%;
   -moz-animation: xamarin 2s ease;
   -webkit-animation: xamarin 2s ease;
 }
@@ -546,7 +546,7 @@ ul#nav li.current a {
   }
 
   100% {
-    width: 55%;
+    width: 70%;
   }
 }
 
@@ -696,7 +696,7 @@ ul#nav li.current a {
   }
 
   100% {
-    width: 55%;
+    width: 70%;
   }
 }
 
